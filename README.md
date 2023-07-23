@@ -1,2 +1,8 @@
-# CSE-122-fall2023
-This is an OOP Lab Repository
+Name: Amina Islam Katha 
+
+ID: 22235103056
+
+Intake: 51
+
+section: 02
+
