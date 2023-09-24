@@ -2,23 +2,25 @@
 #include <string>
 #include <set>
 
+using namespace std;
+
 int main() {
-    std::string username;
-    std::cin >> username;
+    string username;
+    cin >> username;
 
-    std::set<char> distinct_chars;
-
+    set<char> distinctChars;
 
     for (char c : username) {
-        distinct_chars.insert(c);
+        distinctChars.insert(c);
     }
 
-    if (distinct_chars.size() % 2 == 0) {
-        std::cout << "CHAT WITH HER!" << std::endl;
+    if (distinctChars.size() % 2 == 0) {
+        cout << "CHAT WITH HER!" << endl;
     } else {
-        std::cout << "IGNORE HIM!" << std::endl;
+        cout << "IGNORE HIM!" << endl;
     }
 
     return 0;
 }
+
 
